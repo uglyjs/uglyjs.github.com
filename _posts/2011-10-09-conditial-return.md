@@ -8,9 +8,9 @@ We've all seen this:
 
 {% highlight javascript %}
 if (kRegex.test(value)) {
-	return true;
+    return true;
 } else {
-	return false;
+    return false;
 }
 {% endhighlight %}
 
