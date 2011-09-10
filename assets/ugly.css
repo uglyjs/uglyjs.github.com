@@ -58,8 +58,13 @@ pre, code {
 .post {
 	padding: 20px;
 	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
 	background: #424241;
-	background: rgba(33, 33, 33, 0.6);
+	background: rgba(44, 44, 44, 0.7);
+}
+
+.posts .post {
+	border-bottom: none;
 }
 
 .post p {
@@ -77,9 +82,9 @@ pre, code {
 	padding: 7px;
 	line-height: 1em;
 	border-radius: 5px;
-	border-top: 2px solid #222;
-	border-right: 1px solid #222;
-	background: rgba(0,0,0,0.05);
+	border-top: 2px solid #111;
+	border-right: 1px solid #111;
+	background: rgba(0,0,0,0.1);
 }
 
 .pagination {
