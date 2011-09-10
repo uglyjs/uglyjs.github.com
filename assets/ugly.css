@@ -57,7 +57,7 @@ pre {
 }
 
 .body {
-	padding: 10px;
+	padding: 0 0 20px;
 }
 
 .meta {
@@ -74,4 +74,10 @@ pre {
 .pagination {
 	text-align: center;
 	padding: 20px 0;
+}
+
+/* FOOT */
+
+#wt {
+	text-align: center;
 }
