@@ -1,0 +1,6 @@
+auto: true
+permalink: /:year/:month/:day/:title
+pygments: true
+exclude:
+- README.md
+- Rakefile
