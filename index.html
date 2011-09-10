@@ -1,26 +1,31 @@
 ---
 layout: default
 title: Ugly JS
-full_posts: 5
 ---
 
-{% for post in site.posts %}
-  {% if forloop.index < page.full_posts %}
-  <div class='post'>
-    <span class='date'>{{post.date | date_to_string}}</span>
-    <h1><a href='{{post.url}}'>{{post.title}}</a></h1>
-    <div class='body'>{{post.content}}</div>
-    <a href='{{post.url}}#disqus_thread'>View Comments</a>
+{% for post in paginator.posts %}
+  <div class="post">
+  	<div class="body">{{post.content}}</div>
+    <span class="date">{{post.date | date_to_string}}</span>
+    <a href="{{post.url}}">linky</a>
   </div>
-  {% else %}
-    {% if forloop.index == page.full_posts %}
-    <h3>Older Posts</h3>
-    <table class='post-list'>
-    {% endif %}
-    <tr>
-      <th><a href='{{ post.url }}'>{{ post.title }}</a></th>
-      <td>{{ post.date | date_to_string }}</td>
-      <td><a href='{{post.url}}#disqus_thread'>Comments</a></td>
-    </tr>
-  {% endif %}
 {% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+  	{% if paginator.page == 2 %}
+		<a href="/" class="previous">Previous</a>
+  	{% else %}
+    	<a href="/page{{paginator.previous_page}}" class="previous">Previous</a>
+    {% endif %}
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}" class="next ">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>

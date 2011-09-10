@@ -1,7 +1,29 @@
 body {
-    background: #FFF;
+    background: #424241;
+    color: #FFF;
 }
 
 #c {
-  
+	width: 700px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+	font-family: Georgia, serif;
+	text-shadow: 3px 3px 1px #ff8000;
+}
+
+a {
+	color: #FFF;
+	font-weight: 700;
+}
+
+a:hvoer, a:focus {
+	text-decoration: underline;
+}
+
+pre {
+	padding: 10px;
 }

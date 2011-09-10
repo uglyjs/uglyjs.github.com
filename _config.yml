@@ -1,6 +1,7 @@
 auto: true
 permalink: /:year/:month/:day/:title
 pygments: true
+paginate: 5
 exclude:
 - README.md
 - Rakefile
