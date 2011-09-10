@@ -16,7 +16,7 @@ if (kRegex.test(value)) {
 
 Eew.
 
-Beautified:
+*Beautified*:
 
 {% highlight javascript %}
 return kRegex.test(value);
