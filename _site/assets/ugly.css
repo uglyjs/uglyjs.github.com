@@ -1,5 +1,5 @@
 body {
-    background: #292929;
+    background: #292929 url(/assets/bg.png);
     color: #FFF;
     font-family: calibri,tahoma,arial,sans-serif;
 }
@@ -11,26 +11,31 @@ body {
 
 h1 {
 	font-size: 3em;
-	font-weight: 700;
 	text-align: center;
+}
+
+h1 a {
+	text-shadow: 
+		-1px -1px 1px #FFF,
+	    1px -1px 1px #FFF,
+	    -1px 1px 1px #FFF,
+	    1px 1px 1px #FFF;
+	color: inherit;
+	font-weight: normal;
+	letter-spacing: .06em;
 	font-family: "Consolas","Lucida Console",Courier,mono;
-	text-shadow:    -1px -1px 0 #ff8000,
-    1px -1px 0 #ff8000,
-    -1px 1px 0 #ff8000,
-     1px 1px 0 #ff8000;
-	text-transform: uppercase;
 }
 
 a {
 	color: #FF8000;
-	text-shadow: 1px 1px 0 #FFF;
+	text-shadow: 1px 0 0 rgba(255,255,255,.5);
 	font-weight: 700;
 	text-decoration: none;
 }
 
 a:hover, a:focus {
 	text-decoration: underline;
-	color: #FF4300;
+	color: #FFF;
 }
 
 pre {
@@ -54,6 +59,7 @@ pre, code {
 	padding: 20px;
 	border-top: 1px solid #666;
 	background: #424241;
+	background: rgba(33, 33, 33, 0.6);
 }
 
 .post p {
