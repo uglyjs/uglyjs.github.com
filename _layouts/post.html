@@ -1,0 +1,25 @@
+---
+layout: page
+---
+
+<div class="post">
+
+	<div class="body">{{content}}</div>
+
+	<span class="meta">
+
+		{% if page.author %}
+			Posted by
+				{% if page.author_url %}
+					<a href="{{post.author_url}}">{{page.author}}</a>
+				{% else %}
+					{{page.author}}
+				{% endif %}
+				on
+		{% endif %}
+
+		{{page.date | date_to_string}} | <a href="{{page.url}}">linky</a>
+
+	</span>
+
+</div>
