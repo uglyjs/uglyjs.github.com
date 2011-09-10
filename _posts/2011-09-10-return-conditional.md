@@ -1,6 +1,7 @@
 ---
 layout: default
 title: OMG
+author: James
 ---
 
 **dthis** `blah`

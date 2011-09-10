@@ -6,8 +6,22 @@ title: Ugly JS
 {% for post in paginator.posts %}
   <div class="post">
   	<div class="body">{{post.content}}</div>
-    <span class="date">{{post.date | date_to_string}}</span>
-    <a href="{{post.url}}">linky</a>
+    <span class="meta">
+
+    	{% if post.author %}
+    		Posted by
+    			{% if post.author_url %}
+    				<a href="{{post.author_url}}">{{post.author}}</a>
+    			{% else %}
+    				{{post.author}}
+    			{% endif %}
+    			on
+    	{% endif %}
+
+    	{{post.date | date_to_string}} | <a href="{{post.url}}">linky</a>
+
+    </span>
+    
   </div>
 {% endfor %}
 

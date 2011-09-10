@@ -1,6 +1,7 @@
 body {
     background: #424241;
     color: #FFF;
+    font-family: calibri,tahoma,arial,sans-serif;
 }
 
 #c {
@@ -26,4 +27,32 @@ a:hvoer, a:focus {
 
 pre {
 	padding: 10px;
+	font-family: "Consolas","Lucida Console",Courier,mono;
+	font-size: 1em;
+	border-radius: 5px;
+	border-top: 2px solid #EEE;
+	border-right: 1px solid #EEE;
+}
+
+/* POST */
+
+.post {
+	padding: 20px 0;
+	border-top: 2px solid #666;
+}
+
+.post p {
+	padding: .7em 0;
+	margin: 0;
+}
+
+.meta {
+	display: block;
+	text-align: right;
+	padding: 7px;
+	line-height: 1em;
+	border-radius: 5px;
+	border-top: 2px solid #222;
+	border-right: 1px solid #222;
+	background: rgba(0,0,0,0.05);
 }
