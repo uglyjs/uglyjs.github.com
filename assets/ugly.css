@@ -10,20 +10,29 @@ body {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 2.4em;
 	text-align: center;
 }
 
 h1 a {
 	text-shadow: 
-		-1px -1px 1px #FFF,
-	    1px -1px 1px #FFF,
-	    -1px 1px 1px #FFF,
-	    1px 1px 1px #FFF;
+		-1px -1px 1px #111,
+	    1px -1px 0 #FF8000,
+	    -1px 1px 1px #EEE,
+	    1px 1px 1px #EEE;
 	color: inherit;
 	font-weight: normal;
-	letter-spacing: .06em;
+	letter-spacing: 0em;
 	font-family: "Consolas","Lucida Console",Courier,mono;
+}
+
+h1 a:hover, h1 a:focus {
+	text-decoration: none;
+	text-shadow: 
+		-1px -1px 1px #111,
+	    1px -1px 0 #FFF,
+	    -1px 1px 1px #EEE,
+	    1px 1px 1px #EEE;
 }
 
 a {
@@ -47,6 +56,14 @@ pre {
 pre, code {
 	font-size: 1em;
 	font-family: "Consolas","Lucida Console",Courier,mono;
+}
+
+.info {
+	text-align: center;
+	color: #EEE;
+	font-style: italic;
+	font-size: 1.2em;
+	margin-bottom: 40px;
 }
 
 /* POST */
@@ -96,4 +113,5 @@ pre, code {
 
 #wt {
 	text-align: center;
+	margin-top: 40px;
 }
