@@ -35,10 +35,13 @@ a:hover, a:focus {
 
 pre {
 	padding: 10px;
-	font-family: "Consolas","Lucida Console",Courier,mono;
-	font-size: 1em;
 	border-radius: 3px;
 	box-shadow: 0 0 5px #666;
+}
+
+pre, code {
+	font-size: 1em;
+	font-family: "Consolas","Lucida Console",Courier,mono;
 }
 
 /* POST */
