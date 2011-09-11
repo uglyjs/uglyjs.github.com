@@ -75,8 +75,8 @@ pre, code {
 	padding: 20px;
 	border-top: 1px solid #666;
 	border-bottom: 1px solid #666;
-	background: #424241;
-	background: rgba(44, 44, 44, 0.7);
+	background: #222;
+	background: rgba(33, 33, 33, 0.7);
 }
 
 .posts .post {
