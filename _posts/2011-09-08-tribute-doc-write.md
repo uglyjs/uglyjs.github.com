@@ -1,7 +1,7 @@
 ---
 layout: post
 author: James
-author_url: http://padolsey.net
+authorurl: http://padolsey.net
 ---
 
 I feel almost nostalgic at the sight of this. A tear may be shed, not just from the pain that the code induces, but from the memory of how humble things once were...

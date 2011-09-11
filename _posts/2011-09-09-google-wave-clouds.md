@@ -1,7 +1,7 @@
 ---
 layout: post
 author: James
-author_url: http://padolsey.net
+authorurl: http://padolsey.net
 ---
 
 Some poor Google employee [had the job](http://wave.google.com/maintenance/index.html) of making a maintenance page for the once-hyped Google Wave. Apparently, we need a function for each cloud, and each wave:

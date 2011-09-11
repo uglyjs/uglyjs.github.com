@@ -1,7 +1,7 @@
 ---
 layout: post
 author: James
-author_url: http://padolsey.net
+authorurl: http://padolsey.net
 ---
 
 We've all seen this:
