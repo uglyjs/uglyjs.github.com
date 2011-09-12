@@ -5,7 +5,9 @@ body {
 }
 
 #c {
-	width: 700px;
+	min-width: 700px;
+	width: 70%;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -50,10 +52,11 @@ pre {
 	padding: 10px;
 	border-radius: 3px;
 	box-shadow: 0 0 5px #666;
+	overflow-x: auto;
 }
 
 pre, code {
-	font-size: 1em;
+	font-size: .8em;
 	font-family: "Consolas","Lucida Console",Courier,mono;
 }
 

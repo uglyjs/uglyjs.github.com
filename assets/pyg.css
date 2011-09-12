@@ -9,10 +9,10 @@
 .highlight .o { color: #ffffff } /* Operator */
 .highlight .x { color: #ffffff } /* Other */
 .highlight .p { color: #ffffff } /* Punctuation */
-.highlight .cm { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Multiline */
+.highlight .cm { color: #FFFDB8; font-style: italic; background-color: #0f140f } /* Comment.Multiline */
 .highlight .cp { color: #ff0007; font-weight: bold; font-style: italic; background-color: #0f140f } /* Comment.Preproc */
-.highlight .c1 { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Single */
-.highlight .cs { color: #008800; font-style: italic; background-color: #0f140f } /* Comment.Special */
+.highlight .c1 { color: #FFFDB8; font-style: italic; background-color: #0f140f } /* Comment.Single */
+.highlight .cs { color: #FFFDB8; font-style: italic; background-color: #0f140f } /* Comment.Special */
 .highlight .gd { color: #ffffff } /* Generic.Deleted */
 .highlight .ge { color: #ffffff } /* Generic.Emph */
 .highlight .gr { color: #ffffff } /* Generic.Error */
