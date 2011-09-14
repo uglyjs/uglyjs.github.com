@@ -8,10 +8,10 @@ url: /
 {% for post in paginator.posts %}
   <div class="post">
 
-	<h2 class="meta title">{{post.title}}</h2>
+	<h2 class="meta title"><a href="{{post.url}}">{{post.title}}</a></h2>
 	
 	<div class="body">{{post.content}}</div>
-	
+
 	<span class="meta">
 
 		{% if post.author %}

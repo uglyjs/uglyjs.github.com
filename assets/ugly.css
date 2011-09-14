@@ -92,7 +92,7 @@ pre, code {
 }
 
 .body {
-	padding: 15px 0;
+	padding: 15px;
 }
 
 .meta {
@@ -111,6 +111,10 @@ h2.title {
 	font-size: 1.2em;
 	text-align: left;
 	margin: 0;
+}
+
+h2.title a {
+	color: #FFF;
 }
 
 .pagination {
