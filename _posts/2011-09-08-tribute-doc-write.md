@@ -1,4 +1,5 @@
 ---
+title: Nostalgic Tribute to document.write
 layout: post
 author: James
 authorurl: http://padolsey.net

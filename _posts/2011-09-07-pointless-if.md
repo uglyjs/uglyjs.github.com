@@ -1,4 +1,5 @@
 ---
+title: Pointless If statement
 layout: post
 author: James
 authorurl: http://padolsey.net

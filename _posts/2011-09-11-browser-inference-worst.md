@@ -1,10 +1,9 @@
 ---
+title: Browser Inference at its worst?
 layout: post
 author: James
 authorurl: http://padolsey.net
 ---
-
-Browser inference at its worst?
 
 {% highlight javascript %}
 //remove time zone offset in IE  

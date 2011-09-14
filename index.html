@@ -7,7 +7,11 @@ url: /
 <div class="posts">
 {% for post in paginator.posts %}
   <div class="post">
-	  <div class="body">{{post.content}}</div>
+
+	<h2 class="meta title">{{post.title}}</h2>
+	
+	<div class="body">{{post.content}}</div>
+	
 	<span class="meta">
 
 		{% if post.author %}

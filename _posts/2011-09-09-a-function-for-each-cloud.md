@@ -1,4 +1,5 @@
 ---
+title: A function for each cloud
 layout: post
 author: James
 authorurl: http://padolsey.net
