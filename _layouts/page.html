@@ -2,7 +2,11 @@
 
 <meta charset="utf-8" />
 
-<title>Ugly JS</title>
+{% if page.title %}
+	<title>{{page.title}} - Ugly JS</title>
+{% else %}
+	<title>Ugly JS</title>
+{% endif %}
 
 <link href="http://feeds.feedburner.com/UglyJS" rel="alternate" title="Ugly JS" type="application/atom+xml" />
 
