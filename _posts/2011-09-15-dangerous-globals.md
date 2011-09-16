@@ -1,15 +1,11 @@
 ---
-
 title: Dangerous globals
-
 layout: post
-
 author: Julien
-
 ---
 
 
-This is a common, maybe the first, bad practice but some people are really not afraid about using a lot of globals. IKEA's devs are those kind of guys. No litterals, no namespace, no scope, it works today, why would it fail tomorrow ?
+This is a common, maybe the first, bad practice but some people are really not afraid about using a lot of globals. IKEA's devs are those kind of guys. No literals, no namespace, no scope, it works today, why would it fail tomorrow?
 
 {% highlight javascript %}
 
