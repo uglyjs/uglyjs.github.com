@@ -6,7 +6,7 @@ author: David Wosnitza (_druu)
 
 While rescuing a project started by a straight-from-university intern, I came across his very [enterprisy](http://enterprise-js.com/) approach on creating nice and fancy styled checkboxes and/or radio buttons...
 
-{% highlight javascript %}
+{% highlight html %}
 <div id="checkbox_unchecked_s" style="background: url('/./images/stories/checkbox/unchecked.png');display:none;width:31px;height:31px;" onclick="this.style.display = 'none';
     	document.getElementById('checkbox_checked_s').style.display = 'inline-block';
         document.getElementById('checkbox_unchecked_m').style.display = 'inline-block';
