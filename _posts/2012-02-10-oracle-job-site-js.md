@@ -5,7 +5,7 @@ author: Daniel
 authorurl: http://dan.cx/
 ---
 
-One of the many highlights in an [oafcoreR121.js](https://irecruitment.oracle.com/OA_HTML/cabo/oajsLibs/oafcoreR121.js):
+One of the many highlights in [oafcoreR121.js](https://irecruitment.oracle.com/OA_HTML/cabo/oajsLibs/oafcoreR121.js):
 
 {% highlight javascript %}
 // Used for LOV. Should be removed when we move to new UIX LOV
