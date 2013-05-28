@@ -25,7 +25,7 @@ h1 a {
 	color: inherit;
 	font-weight: normal;
 	letter-spacing: 0;
-	font-family: "Consolas","Lucida Console",Courier,mono;
+	font-family: "Menlo", "Bitstream Vera Sans Mono", "Consolas", "Lucida Console", monospace, mono;
 }
 
 h1 a:hover, h1 a:focus {
@@ -63,7 +63,7 @@ pre, code {
 	border-radius: 3px;
 	box-shadow: 0 0 5px #666;
 	font-size: .93em;
-	font-family: "Consolas","Lucida Console",Courier,mono;
+	font-family: "Menlo", "Bitstream Vera Sans Mono", "Consolas", "Lucida Console", monospace, mono;
 }
 
 pre code {
