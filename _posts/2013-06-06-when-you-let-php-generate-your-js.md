@@ -58,7 +58,3 @@ $(document).ready(function(){
 </script>
 
 {% endhighlight %}
-
-*Beautified*:
-
-Hire someone who knows how to write JS that doesn't write such things
